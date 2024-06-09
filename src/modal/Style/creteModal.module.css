@@ -1,0 +1,55 @@
+.modalBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+    width: 40rem;
+    position: fixed;
+   border: 1px solid black;
+   border-radius: 1rem;
+    margin: auto;
+    z-index: 1;
+    background-color: wheat;
+ }
+ .textBox{
+ 
+ }
+ input{
+    width: 80%;
+    height: 2rem;
+    margin-top: 0.5rem;
+ }
+ .inputBox{
+    display:flex ;
+    flex-direction: column;
+    width: 90%;
+    
+ }
+ .btnRow {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 5rem;
+ }
+ .update {
+    width: 5rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border: none;
+ }
+ .update:hover{
+    background-color: #2AAA8A;
+ }
+ 
+ .delete {
+    width: 5rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: none;
+ }
+ .delete:hover{
+    background-color: rgb(231, 109, 109);
+ }

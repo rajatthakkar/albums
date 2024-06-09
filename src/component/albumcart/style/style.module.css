@@ -1,0 +1,60 @@
+.cardBox {
+
+    border: 1px solid blue;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 15rem;
+    width: 20rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 0;
+  
+
+}
+
+.cardBox:hover {
+    border: 2px solid blue;
+}
+
+.btnRow {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.update {
+    width: 5rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.update:hover{
+    background-color: #2AAA8A;
+}
+
+.delete {
+    width: 5rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.delete:hover{
+    background-color: rgb(231, 109, 109);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1rem; */
+    width: inherit;
+    height: inherit;
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+}
